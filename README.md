@@ -3,26 +3,41 @@
 ## Instructions:
 Fork and clone this lab, then complete the drills below.
 
-### 1. Nested for-loops and user input
+### 1. Nested for-loops
 
 Create a new python file called `warmup1.py` and complete the following:
 
 1. Write a function called `Yes` that takes an int parameter `excitement_level`. This should print out "Yes!" `excitement_level` times. For example, `Yes(10)` should print out "Yes!" ten times.
 2. Write a function called `No` that takes an int parameter `disappointment_level`. This should print out "No" with the number of "o"s equal to `disappointment_level`. For example, `No(10)` should print out "Noooooooooo".
-3. 
+3. Write a function called `ClassStartTime` that takes an integer parameter `start_time` which represents a class's starting hour in 24-hour time. It should have the following behavior:
+  * If the class begins after 1 pm, call your `Yes` function with an `excitement_level` equal to the number of hours past noon. So `ClassStartTime(18)` (6pm) should print "Yes" 6 times, and `ClassStartTime(13)` should print "Yes" one time.
+  * If the class begins before 1 pm, call your `No` function with a `disappointment_level` equal to the number of hours before 1pm. So `ClassStartTime(12)` should print "No" and `ClassStartTime(7)` should print "Noooooo".
+4. Write a function called `ClassSchedule` that takes a dictionary parameter called `schedule`, where the key is the string name of the class, and the value is the start time of the class. For each class in `schedule`, print "(class) is at (start time):00." on one line, then the result of `ClassSchedule` on the next line.
+  For example
+  ```python
+  fall2015_schedule = {
+    'Math' : 9,
+    'History' : 7,
+    'Computer Science' : 15
+  }
+  ClassSchedule(fall2015_schedule)
+  ```
+  should print
+  
+  ```
+    Math is at 9:00.
+    Noooo
+    History is at 7:00.
+    Noooooo
+    Computer Science is at 15:00.
+    Yes!
+    Yes!
+    Yes!
+  }
+  ClassSchedule(fall2015_schedule)
+  ```
 
-2. Modify your code above so that it does the following:
-  * Keep asking "Enter a command:" repeatedly after the user enters a command the first time
-  * Stop prompting for input (i.e. break out of the loop) only after the user inputs "please" three times in a row. This should be case-insensitive.
-
-### 2. Nested for loops
-
-Create a new python file called `warmup2.py` and complete the following:
-
-1. 
-
-
-### 1. Loops and Lists Drills
+### 2. Loops and Lists Drills
 
 1. Given the following list:
   
