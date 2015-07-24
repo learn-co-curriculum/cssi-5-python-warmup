@@ -19,4 +19,19 @@ Fork and clone this lab, then complete the drills below.
 
 ### 2. Loops and Dictionaries Drills
 
+Given the following dictionary:
 
+  ```python
+  name_to_favorite_food = {
+    'victoria' : 'pizza',
+    'tim' : 'sushi',
+    'cookie monster' : 'cookies',
+    'pooh' : 'honey',
+    'jiro' : 'sushi',
+    'michelangelo' : 'pizza',
+    'caesar' : 'pizza',
+    'joseph' : 'frosting'
+  }
+  ```
+1. Write a loop that prints out all the names in the dictionary.
+2. Write a loop that prints out each person's name along with their favorite food
