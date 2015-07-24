@@ -25,16 +25,14 @@ Create a new python file called `warmup1.py` and complete the following:
   should print
   
   ```
-    Math is at 9:00.
-    Noooo
-    History is at 7:00.
-    Noooooo
-    Computer Science is at 15:00.
-    Yes!
-    Yes!
-    Yes!
-  }
-  ClassSchedule(fall2015_schedule)
+  Math is at 9:00.
+  Noooo
+  History is at 7:00.
+  Noooooo
+  Computer Science is at 15:00.
+  Yes!
+  Yes!
+  Yes!
   ```
 
 ### 2. Loops and Lists Drills
