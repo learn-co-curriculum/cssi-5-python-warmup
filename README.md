@@ -47,7 +47,6 @@ Create a new python file called `warmup1.py` and complete the following:
 4. Write a functions called `CountHotDays` that takes a list parameter called `daily_temperatures` and returns the number of temperatures that are above 90.
 5. Write a functions called `ModeTemperature` that takes a list parameter called `daily_temperatures` and returns the most common temperature in the list. If there is more than one mode, return the first mode found.
 6. Write a function called `MedianTemperature` that takes a list parameter called `daily_temperatures` and returns the median element of the list.
-7. Write a function called `Deltas` that takes a list parameter called `daily_temperatures` and returns a list of the differences between each temperature. For example, `Deltas([73, 75, 70])` should return `[2, -5]`. 
 
 ### 2. Loops and Dictionaries Drills
 
@@ -85,5 +84,10 @@ Given the following dictionary:
   ```
 1. Write a loop that prints out each person's name along with their favorite food in the form of "(name) loves (food)", e.g. "victoria loves pizza"
 2. Write a loop that prints out each person's name along with their favorite food in the form of "(name) Loves (food)", with each word capitalized, e.g. "Victoria Loves Pizza" and "Cookie Monster Loves Cookies".
+
+### 3. Creating Lists and Dictionaries
+
+1. Write a function called `Deltas` that takes a list parameter called `daily_temperatures` and returns a list of the differences between each temperature. For example, `Deltas([73, 75, 70])` should return `[2, -5]`. 
 2. Write a function called `GetUniqueFavorites` that takes a dictionary parameter called `name_to_favorite_food` and returns a list of all the unique favorite foods.
-3. **Extra Credit** Write a function called `PopularFood` that takes a dictionary parameter called `name_to_favorite_food` and returns the most frequent favorite food in the list. If there is a tie, return the first in alphabetical order. For example, `PopularFood(favorite_foods)` should return "pizza".
+3. Write a function called `PopularFood` that takes a dictionary parameter called `name_to_favorite_food` and returns the most frequent favorite food in the list. If there is a tie, return the first in alphabetical order. For example, `PopularFood(favorite_foods)` should return "pizza".
+
