@@ -91,3 +91,5 @@ Given the following dictionary:
 2. Write a function called `GetUniqueFavorites` that takes a dictionary parameter called `name_to_favorite_food` and returns a list of all the unique favorite foods.
 3. Write a function called `PopularFood` that takes a dictionary parameter called `name_to_favorite_food` and returns the most frequent favorite food in the list. If there is a tie, return the first in alphabetical order. For example, `PopularFood(favorite_foods)` should return "pizza".
 
+
+<a href='https://learn.co/lessons/cssi-5-python-warmup' data-visibility='hidden'>View this lesson on Learn.co</a>
