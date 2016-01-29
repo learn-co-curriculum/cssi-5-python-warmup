@@ -92,4 +92,4 @@ Given the following dictionary:
 3. Write a function called `PopularFood` that takes a dictionary parameter called `name_to_favorite_food` and returns the most frequent favorite food in the list. If there is a tie, return the first in alphabetical order. For example, `PopularFood(favorite_foods)` should return "pizza".
 
 
-<a href='https://learn.co/lessons/cssi-5-python-warmup' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-5-python-warmup' title='Python Day 5 Warm-up!'>Python Day 5 Warm-up!</a> on Learn.co and start learning to code for free.</p>
